@@ -54,7 +54,7 @@ a{
     background-image: url("https://www.w3schools.com/howto/img_parallax.jpg");
 
     /* Set a specific height */
-    min-height: 600px; 
+    min-height: 600px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -120,6 +120,11 @@ nav a {
 
 }
 
+.paragrah-about{
+  text-align: center;
+
+}
+
 .des-contenet{
 	margin: 16px 0px;
 }
@@ -136,6 +141,15 @@ nav a {
 }
 .photo-about{
   display: block;
+}
+h1{
+  color: white;
+  font-size: 30px;
+}
+p{
+  color: white;
+  font-size: 20px;
+  font-weight:200;
 }
 
 /*Team area*/
