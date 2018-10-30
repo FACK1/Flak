@@ -1,5 +1,15 @@
 
 /*General classes*/
+<<<<<<< HEAD
+.container:after{
+  clear: both;
+}
+.col-50{
+  width: 50%;
+  display: inline;
+  float: left;
+}
+=======
 .flex-container {
 	display: flex;
 	flex-direction: row;
@@ -23,6 +33,7 @@ a{
 /*Description area*/
 img{
   float: left;
+>>>>>>> 0dac9567f2941c6e1ab7e57a14d5c26dac557d33
 
 
 
@@ -30,7 +41,20 @@ img{
 }
 
 /*About area*/
-
+.head-about{
+  font-size: 35px;
+  color: black;
+  text-align: left;
+}
+.paragrah-about{
+  text-align: left;
+  font-size: 30px;
+  font-style: normal;
+}
+.photo-about{
+  direction: rtl;
+  display: block;
+}
 
 /*Team area*/
 .team-member {
