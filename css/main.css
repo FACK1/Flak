@@ -7,6 +7,7 @@ header{
 	right: 0px;
 	left: 0px;
 	background-color: rgba(0,0,0,0.3);
+	z-index: 9;
 }
 body{
 	margin: 0px;
@@ -14,14 +15,14 @@ body{
 	padding-top: 100px;
 	background: #222;
 	font-family: 'Work Sans', sans-serif;
-	font-weight: 800;
 }
 
 section{
   clear: both;
 }
 .row{
-  clear: both;
+	clear: both;
+	margin: 0px 10px;
 }
 .col-50{
 /*General classes*/
@@ -47,9 +48,39 @@ section{
 a{
 	text-decoration: none !important;
 }
+.parallax {
+    /* The image used */
+    background-image: url("https://www.w3schools.com/howto/img_parallax.jpg");
+
+    /* Set a specific height */
+    min-height: 600px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+    position: relative;
+}
+.parallax>div{
+	position: absolute;
+	left: 0px;
+	right: 0px;
+	margin: auto;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.bg-fade{
+	background-color: rgba(230,230,230, 0.6);
+}
+.bg-fade-content{
+	padding: 5px;
+}
 /*Navbar area*/
 .container {
-	width: 90%;
+	width: 100%;
 	margin: 0 auto;
 }
 
@@ -86,11 +117,11 @@ nav a {
 .sec-dec img{
   float: left;
 
-
-
-
 }
 
+.des-contenet{
+	margin: 16px 0px;
+}
 /*About area*/
 .head-about{
   font-size: 35px;
@@ -103,7 +134,6 @@ nav a {
   font-style: normal;
 }
 .photo-about{
-  direction: rtl;
   display: block;
 }
 
