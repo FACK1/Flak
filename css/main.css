@@ -1,7 +1,33 @@
 
 /*General classes*/
-
-
+<<<<<<< HEAD
+.container:after{
+  clear: both;
+}
+.col-50{
+  width: 50%;
+  display: inline;
+  float: left;
+}
+=======
+.flex-container {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+}
+.img-parent {
+    width: 100%;
+    height: 100%;
+}
+.img-parent img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+a{
+	text-decoration: none !important;
+}
 /*Navbar area*/
 body {
 	margin: 0;
@@ -44,16 +70,86 @@ nav a {
 }
 
 
-
 /*Description area*/
+img{
+  float: left;
+>>>>>>> 0dac9567f2941c6e1ab7e57a14d5c26dac557d33
 
+
+
+
+}
 
 /*About area*/
-
+.head-about{
+  font-size: 35px;
+  color: black;
+  text-align: left;
+}
+.paragrah-about{
+  text-align: left;
+  font-size: 30px;
+  font-style: normal;
+}
+.photo-about{
+  direction: rtl;
+  display: block;
+}
 
 /*Team area*/
-
-
+.team-member {
+	width: 200px;
+	height: 200px;
+	margin: 10px;
+}
+.team-member {
+	position: relative;
+}
+.team-member img {
+	border-radius: 10px;
+}
+.team-links{
+	padding: 3px;
+	background-color: rgba(0,0,0,0);
+	position: absolute;
+	left: 0px;
+	bottom: 0px;
+	z-index: 10;
+	display: none;
+	opacity: 0;
+}
+.team-member:hover .team-links{
+	display: inherit;
+	opacity: 1;
+}
+.team-member-name{
+	text-align: center;
+}
+.team-member-name>span{
+	font-style: italic;
+	color: gray; 
+}
+.team-member:hover .team-member-name>span{
+	font-weight: bold;
+}
+.fa{
+	width: 20px;
+	height: 20px;
+	background-size: contain;
+	display: inline-block;
+}
+.fa:after{
+	content: " ";
+}
+.fa-github{
+	background-image: url(../img/icon/github.png);
+}
+.fa-codewars{
+	background-image: url(../img/icon/codewars.png);
+}
+.fa-linkedin{
+	background-image: url(../img/icon/in.png);
+}
 /*Contact us area*/
 
 
