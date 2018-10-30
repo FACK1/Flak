@@ -1,15 +1,15 @@
-
-/*General classes*/
-<<<<<<< HEAD
-.container:after{
+section{
+  clear: both;
+}
+.row{
   clear: both;
 }
 .col-50{
+/*General classes*/
   width: 50%;
   display: inline;
   float: left;
 }
-=======
 .flex-container {
 	display: flex;
 	flex-direction: row;
@@ -71,9 +71,8 @@ nav a {
 
 
 /*Description area*/
-img{
+.sec-dec img{
   float: left;
->>>>>>> 0dac9567f2941c6e1ab7e57a14d5c26dac557d33
 
 
 
@@ -127,7 +126,7 @@ img{
 }
 .team-member-name>span{
 	font-style: italic;
-	color: gray; 
+	color: gray;
 }
 .team-member:hover .team-member-name>span{
 	font-weight: bold;
