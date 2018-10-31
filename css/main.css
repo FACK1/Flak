@@ -315,7 +315,15 @@ footer{
   .hidden-sm{
     display: none;
   }
+  .flex-container {
+  	display: flex;
+  	flex-direction: column;
+  	flex-wrap: nowrap;
+  	justify-content: center;
+    align-items: center;
+  }
 
+}
 .container1{
   background-color: black;
   margin: 0;
