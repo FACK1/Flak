@@ -23,6 +23,11 @@ The team created this site to provide multiple services for designing websites, 
 
  5.  Working with the team was fun because everyone was team spirit and everyone was cooperative and the goal of everyone was to make the team overall and not individually it was a great job.
  
+  # Team Member:
+   - AbedAlhammed Abozanona
+   - RazanTayyem
+   - Safa Amro
+   - Shaima Azmi 
   
   
 
