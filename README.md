@@ -20,7 +20,7 @@ The team created this site to provide multiple services for designing websites, 
   3. The programming languages mentioned above were used. The site requirements were read and then an approximate form was drawn for the site and a name for the site was chosen with the approval of all through the team members. The assignment was then divided among the members of the team. Each member of the team started to perform his task. Team members to help solve. Our site, as mentioned, consists of Navbar, which consists of a logo, description, about, team and contact us of the site. 
     4.  The second part consists of a description of the site and the team contains explanatory text about the team The third section consists of an image and an explanatory text on the site The fourth section contains information about the developments on the site and their addresses in some social networking sites The last section consists of a form, sending a message and a map showing our site as well footer.
 
-    5.  Working with the team was fun because everyone was team spirit and everyone was cooperative and the goal of everyone was to make the team overall and not individually it was a great job.
+ 5.  Working with the team was fun because everyone was team spirit and everyone was cooperative and the goal of everyone was to make the team overall and not individually it was a great job.
  
   
   
