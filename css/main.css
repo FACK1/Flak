@@ -36,16 +36,18 @@ section{
 input{
   width: 60% !important;
 }
-@media only screen and (max-width: 600px) {
-  .col-50{
-    width: 100%;
-    display: block;
-    float: left;
-  }
-  input{
-    width: 100%;
-  }
+input.submit{
+  width: 200px !important;
+  background: #ffff00 !important;
+  color: black !important;
 }
+.text-right{
+  text-align: right;
+}
+.text-left{
+  text-align: left;
+}
+
 .flex-container {
 	display: flex;
 	flex-direction: row;
@@ -278,5 +280,37 @@ div-cont{
     padding: 20px;
 }
 
+footer{
+  background: #ccc;
+  font-weight:600;
+  padding: 50px 80px;
+  font-size: 16px !important;
+}
 
-/*Footer us area*/
+
+.link1{
+  color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .col-50{
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  input{
+    width: 100%;
+  }
+  .text-right{
+    text-align: center;
+  }
+  .text-left{
+    text-align: center;
+  }
+  .des-contenet{
+    width: 100%;
+  }
+  .hidden-sm{
+    display: none;
+  }
+}

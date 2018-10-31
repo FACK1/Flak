@@ -39,6 +39,17 @@ for(let i=0;i<navs.length;i++){
 }
 document.addEventListener("scroll", function(){
   var top = (window.pageYOffset || document.scrollTop)  - (document.clientTop || 0);
+  if(top < 50){
+    for(let j=0;j<navs.length;j++){
+      if(j==0){
+        navs[0].classList.add('selected');
+      }
+      else{
+        navs[j].classList.remove("selected");
+      }
+    }
+    return;
+  }
   for(let i=1;i<sections.length;i++){
     let sec = (sections[i]);
     if(top<posY(sec)){
