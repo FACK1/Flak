@@ -6,20 +6,16 @@ header{
 	top: 0px;
 	right: 0px;
 	left: 0px;
-	background-color: rgba(0,0,0,0.3);
 	z-index: 9;
 }
 body{
 	margin: 0px;
 	padding: 0px;
-	padding-top: 100px;
-	background: #222;
 	font-family: 'Work Sans', sans-serif;
 }
-
 section{
   clear: both;
-  margin-bottom: 70px;
+  margin-bottom: 100px;
 }
 .row{
 	clear: both;
@@ -30,6 +26,25 @@ section{
   width: 50%;
   display: inline;
   float: left;
+}
+.clearfix{
+  clear: both;
+}
+.clearfix:after{
+  content: ' ';
+}
+input{
+  width: 60% !important;
+}
+@media only screen and (max-width: 600px) {
+  .col-50{
+    width: 100%;
+    display: block;
+    float: left;
+  }
+  input{
+    width: 100%;
+  }
 }
 .flex-container {
 	display: flex;
@@ -45,17 +60,25 @@ section{
     object-fit: cover;
     height: 100%;
     width: 100%;
+    max-width: 100%;
 }
 a{
 	text-decoration: none !important;
 }
-
+h1{
+  font-size: 35px;
+  text-align: center;
+  text-transform: capitalize;
+}
+.yellow{
+  color: yellow;
+}
 .parallax {
     /* The image used */
     background-image: url("https://www.w3schools.com/howto/img_parallax.jpg");
 
     /* Set a specific height */
-    min-height: 600px; 
+    min-height: 600px;
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
@@ -75,11 +98,13 @@ a{
     top: 50%;
     transform: translateY(-50%);
 }
+
 .bg-fade{
-	background-color: rgba(230,230,230, 0.6);
+	background-color: rgba(50,50,50, 0.5);
+  border-radius: 14px;
 }
 .bg-fade-content{
-	padding: 5px;
+	padding: 8px;
 }
 /*Navbar area*/
 .container {
@@ -92,15 +117,24 @@ a{
   float: left;
   padding: 0px;
 }
-
-nav {
+nav ul{
   float: right;
+  padding-top: 23px;
 }
+nav a {
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20px;
+  padding: 10px 23px;
+}
+nav a:hover, nav a.selected{
+  background-color: #FFFF00;
+  color: black;
+}
+
 
 nav li {
   display: inline-block;
-  margin-left: 50px;
-  padding-top: 23px;
 
   position: relative;
 }
@@ -121,15 +155,24 @@ nav a {
   float: left;
 
 }
+#description-section{
+  margin-top: -100px;
+}
+.paragrah-about{
+
+    display: block;
+
+
+}
 
 .des-contenet{
 	margin: 16px 0px;
+  width: 28%;
 }
 /*About area*/
 .head-about{
-  font-size: 35px;
-  color: black;
-  text-align: left;
+  color:black;
+
 }
 .paragrah-about{
   text-align: left;
@@ -138,6 +181,12 @@ nav a {
 }
 .photo-about{
   display: block;
+}
+
+p{
+  color: black;
+  font-size: 20px;
+  font-weight:200;
 }
 
 /*Team area*/
@@ -196,7 +245,7 @@ nav a {
 }
 /*Contact us area*/
 
-input[type=text], select {
+input[type=text] {
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
@@ -205,7 +254,10 @@ input[type=text], select {
     border-radius: 4px;
     box-sizing: border-box;
 }
-
+label{
+  width: 100px;
+  display: inline-block;
+}
 input[type=submit] {
     width: 100%;
     background-color: #4CAF50;
