@@ -25,8 +25,8 @@ The team created this site to provide multiple services for designing websites, 
  
   # Team Members:
    - [AbedAlhammed Abozanona]()
-   - [Razan Tayyem]()
-   - [Safa Amro]()
+   - [Razan Tayyem](https://github.com/razantayyem)
+   - [Safa Amro](https://github.com/safaaamro)
    - [Shaima Azmi](https://github.com/shaima96) 
   
   
