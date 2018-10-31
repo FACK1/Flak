@@ -25,7 +25,7 @@ The team created this site to provide multiple services for designing websites, 
  
   # Team Member:
    - AbedAlhammed Abozanona
-   - RazanTayyem
+   - Razan Tayyem
    - Safa Amro
    - Shaima Azmi 
   
