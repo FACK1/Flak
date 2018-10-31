@@ -87,6 +87,7 @@ h1{
     background-size: cover;
 
 
+
     position: relative;
 }
 .parallax>div{
@@ -143,7 +144,7 @@ nav a {
   text-decoration: none;
   text-transform: uppercase;
   font-size: 14px;
-  color:#FFFF00	;
+  color:#FFF00	;
 }
 
 }
@@ -280,3 +281,13 @@ div-cont{
 
 
 /*Footer us area*/
+.container1{
+  background-color: black;
+  margin: 0;
+  width: 1400px;
+  height: 100px;
+  color:white;
+}
+#para{
+  direction: rtl;
+}
