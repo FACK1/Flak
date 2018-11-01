@@ -8,7 +8,7 @@ The team created this site to provide multiple services for designing websites, 
 # Description:
    1.  Our website is designed using several languages such as HTML, CSS and Javascript. The site consists of Navbar and a description of the site, as well as a definition of the team and the design of the request for customers and a map showing our site.
 
-**The link of website**: [Flak.io](/home/shaima/Documents/Flak/index.htm)
+ **The link of website**: [Flak.io](/home/shaima/Documents/Flak)
 
  2. Our website is so easy that you can:
  -  Visit our website and see the address about our team.
